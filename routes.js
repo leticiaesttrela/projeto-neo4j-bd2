@@ -15,7 +15,7 @@ router.put('/evento/:id', evento.update);
 router.delete('/evento/:id', evento.delete);
 
 router.post('/login', usuario.login);
-router.post('/signup', usuario.signup);
+
 
 router.get('/like/:id', neo4j.curtirEvento);
 router.get('/liked/:id', neo4j.eventosCurtidos);

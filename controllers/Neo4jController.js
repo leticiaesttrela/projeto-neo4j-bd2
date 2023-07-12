@@ -1,4 +1,4 @@
-const driver = require('../../database/neo4j');
+const driver = require('../database/neo4j');
 const Evento  = require('../models/Evento');
 const jwt = require('jsonwebtoken');
 
