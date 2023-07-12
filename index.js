@@ -11,5 +11,5 @@ app.use(cors());
 app.use(router);
 
 app.listen(port, () => {
-    console.log(`Servidor rodando em http://localhost:${port}`)
+    console.log(`Servidor rodando`)
 });
